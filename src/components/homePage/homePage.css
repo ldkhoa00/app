@@ -1,0 +1,80 @@
+.container {
+  /* width: 500px; */
+  height: 1080px;
+  /* margin: 50px; */
+  /* outline: solid 1px black; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle {
+  width: 100px;
+  height: 100px;
+  /* border-radius: 50%; */
+  background-color: black;
+  margin: 10rem;
+
+}
+.btn {
+  border: none;
+  width: 500px;
+  height: 300px;
+  background-color: rgb(189, 189, 189);
+  padding: 14px 28px;
+  font-size: 30px;
+  cursor: pointer;
+  display: inline-block;
+
+  margin: 0.5rem;
+
+}
+
+/* Green */
+.success {
+  color: green;
+}
+
+.success:hover {
+  background-color: #04AA6D;
+  color: white;
+}
+
+/* Blue */
+.info {
+  color: dodgerblue;
+}
+
+.info:hover {
+  background: #2196F3;
+  color: white;
+}
+
+/* Orange */
+.warning {
+  color: rgb(255, 254, 253);
+}
+
+.warning:hover {
+  background: #ff9800;
+  color: white;
+}
+
+/* Red */
+.danger {
+  color: red;
+}
+
+.danger:hover {
+  background: #f44336;
+  color: white;
+}
+
+/* Gray */
+.default {
+  color: black;
+}
+
+.default:hover {
+  background: #e7e7e7;
+}
