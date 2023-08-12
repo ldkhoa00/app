@@ -15,9 +15,9 @@ function App() {
   return (
     <div>
       <Header/>
-      {/* <Login/> */}
+      <Login/>
       {/* <HomePage/> */}
-      <DetailPage/>
+      {/* <DetailPage/> */}
     </div>
   );
 }
